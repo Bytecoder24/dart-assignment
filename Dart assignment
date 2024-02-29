@@ -1,0 +1,33 @@
+void main() {
+  // Declaring and initializing an integer variable
+  int age = 25;
+
+  // Declaring and initializing a double variable
+  double height = 5.11;
+
+  // Declaring and initializing a String variable
+  String name = "David Maloba";
+
+  // Declaring and initializing a List of integers
+  List<int> numbers = [1, 2, 3, 4, 5];
+
+  // Declaring and initializing a Map with String keys and int values
+  Map<String, int> studentScores = {
+    "Math": 90,
+    "Science": 85,
+    "History": 95
+  }; 
+  
+  // Printing the value of each data type
+  print("Age: $age");
+  print("Height: $height");
+  print("Name: $name");
+  print("Numbers: $numbers");
+  print("Student Scores: $studentScores");
+  
+  // Accessing and printing the first number in the List
+  print("First number: ${numbers[0]}");
+  
+  // Accessing and printing the Math score from the Map
+  print("Math score: ${studentScores['Math']}");
+}
